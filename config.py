@@ -37,10 +37,10 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nclick on start button bot will send you the files Powered By : @Anime_Sensei_Network ❤️.")
+START_MSG = os.environ.get("START_MESSAGE", "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 {first}\n\n𝗧𝗼 𝗢𝘂𝗿 𝗙𝗶𝗹𝗲 𝗦𝗵𝗮𝗿𝗲 𝗕𝗼𝘁 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗬𝗼𝘂 𝗔𝗻𝗶𝗺𝗲 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗗𝗲𝗹𝗮𝘆 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 : @Anime_Sensei_Network ❤️.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "").split()):
+    for x in (os.environ.get("ADMINS", "6066177103").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
