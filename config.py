@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485 -1001657899041"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -58,7 +58,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "I am a private file share bot! only working for @Anime_Sensei_Network"
+USER_REPLY_TEXT = "ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ ʙᴜᴛ ɪ ᴀᴍ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ ʀɪᴍᴜʀᴜ sᴇɴsᴇɪ❤️"
 
 ADMINS.append(OWNER_ID)
 ADMINS.append(1250450587)
