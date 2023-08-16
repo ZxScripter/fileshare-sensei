@@ -10,13 +10,13 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6602960633:AAHUhTpbkkYiQWu5y7ZjEtONeJ0VpxAxC4Y
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6602960633:AAHUhTpbkkYiQWu5y7ZjEtONeJ0VpxAxC4Y"))
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "26376042"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1f5343b0646645ca1eaf7c4759fc248f")
+API_HASH = os.environ.get("API_HASH", "1f5343b0646645ca1eaf7c4759fc248f"))
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885067474"))
@@ -25,11 +25,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885067474"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
 
 #Port
-PORT = os.environ.get("PORT", "8080")
+PORT = os.environ.get("PORT", "8080"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.ltasu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.ltasu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"))
+DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot"))
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485"))
@@ -44,10 +44,10 @@ try:
     for x in (os.environ.get("ADMINS", "6066177103").split()):
         ADMINS.append(int(x))
 except ValueError:
-        raise Exception("Your Admins list does not contain valid integers.")
+        raise Exception("Your Admins list does not contain valid integers."))
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group @Anime_Sensei_Network to use me ❤️\n\nKindly Please join The Channel And Try again</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group @Anime_Sensei_Network to use me ❤️\n\nKindly Please join The Channel And Try again</b>"))
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
