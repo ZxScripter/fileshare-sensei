@@ -38,7 +38,7 @@ FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001657899041"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "𝗪𝗲𝗹𝗰𝗼𝗺𝗲 {first}\n\n𝗧𝗼 𝗢𝘂𝗿 𝗙𝗶𝗹𝗲 𝗦𝗵𝗮𝗿𝗲 𝗕𝗼𝘁 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗣𝗿𝗼𝘃𝗶𝗱𝗲 𝗬𝗼𝘂 𝗔𝗻𝗶𝗺𝗲 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗗𝗲𝗹𝗮𝘆 𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 : @Anime_Sensei_Network ❤️.")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nʙᴀᴋᴋᴀᴀᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !!! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6066177103").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group @Anime_Sensei_Network to use me ❤️\n\nKindly Please join The Channel And Try again</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴜꜱɪɴɢ ᴍᴇ ᴡɪᴛʜᴏᴜᴛ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ?ᴊᴏɪɴ ɴᴏᴡ, ᴀɴᴅ ᴇɴᴊᴏʏ !!! ☺️</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
