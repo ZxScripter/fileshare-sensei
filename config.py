@@ -10,30 +10,30 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6092734:Hqi1awbdpMxwTGT5Iz48n68")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", T5Iz48n68")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "2642"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "1f5345ca7c4759fc248f")
+API_HASH = os.environ.get("API_HASH", "7c4759fc248f")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885067474"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "7474"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "2036803347"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "23347"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.ltasu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://usue&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001657899041")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1485"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1041")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -41,7 +41,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "ʜᴇʟʟᴏ {first}\n\nʙᴀᴋᴋᴀᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !!! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "6066177103").split()):
+    for x in (os.environ.get("ADMINS", "77103").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
